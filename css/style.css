@@ -187,18 +187,22 @@ header {
     max-width: 500px; 
 }
 
-.conocer {
+.btn-conocer {
     background-color: var(--ROSA-CLARO);
     color: var(--ROSA);
     height: 50px;
-    width: 350px;
+    width: 400px;
     border-radius: 50px;
     border-style: none;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-.conocer:hover {
+.btn-conocer:hover {
     background-color: var(--ROSA);
     color: var(--ROSA-CLARO);
     cursor: pointer;
@@ -269,7 +273,11 @@ header {
     margin: 0;
     color: var(--ROSA);
 }
-  
+
+a.item {
+    text-decoration: none; 
+}
+
 .item:hover {
     transform: scale(1.2);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
@@ -325,7 +333,7 @@ header {
 .item5 { grid-area: item5; }
 .item6 { grid-area: item6; }
   
-.ver-mas {
+.btn-ver-mas{
     margin-top: 20px;
     background-color: var(--VERDE-OSCURO);
     color: white;
@@ -336,9 +344,13 @@ header {
     font-size: 22px;
     font-weight: bold;
     transition: transform 0.3s ease;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-.ver-mas:hover {
+.btn-ver-mas:hover {
     transform: scale(1.2);
     cursor: pointer;
 }

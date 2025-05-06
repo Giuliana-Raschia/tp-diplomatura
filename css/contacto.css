@@ -62,7 +62,7 @@ body {
     color: var(--VERDE-OSCURO);
     font-size: 25px;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bungee', sans-serif;
 }
   
 form {
@@ -71,6 +71,12 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+form p {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--VERDE-OSCURO);
 }
   
 input, textarea {
@@ -95,5 +101,48 @@ button {
   
 button:hover {
     background-color: var(--VERDE-MEDIO);
+}
+  
+select {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.select-novedades {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.select-novedades label {
+    font-size: 20px;
+    color: var(--VERDE-OSCURO);
+}
+
+.select-novedades input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--VERDE-OSCURO); /* Color del botón cuando lo selecciono*/
+}
+
+label {
+    color: var(--VERDE-OSCURO);
+    font-weight: bold;
+    font-size: 22px;
+}
+  
+.botones-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.botones-form button {
+    flex: 1;
+    max-width: 150px;
 }
   

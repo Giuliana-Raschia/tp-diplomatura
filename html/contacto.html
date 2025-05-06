@@ -25,34 +25,58 @@
         </nav>
     </header>
     <section class="contacto">
-        <div class="redes-sociales">
-          <h2>¡Seguinos en nuestras redes!</h2>
-          <div class="iconos-redes">
-            <a href="https://www.tiktok.com" target="_blank">
-              <img src="../img/logo-tiktok.png" alt="TikTok">
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="../img/logo-instagram.png" alt="Instagram">
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="../img/logo-x.png" alt="Twitter">
-            </a>
+      <div class="redes-sociales">
+        <h2>¡Seguinos en nuestras redes!</h2>
+        <div class="iconos-redes">
+          <a href="https://www.tiktok.com" target="_blank">
+            <img src="../img/logo-tiktok.png" alt="TikTok">
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="../img/logo-instagram.png" alt="Instagram">
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="../img/logo-x.png" alt="Twitter">
+          </a>
+        </div>
+      </div>
+    
+      <div class="formulario-contacto">
+        <h3>Por sugerencias o consultas contactanos</h3>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico.." required>
+    
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono.." required>
+    
+          <label for="comentario">Comentario:</label>
+          <textarea id="comentario" name="comentario" placeholder="Escribí tu mensaje..." rows="4" required></textarea>
+    
+          <label for="motivo">Motivo de contacto:</label>
+          <select id="motivo" name="motivo" required>
+            <option value="">Seleccioná una opción</option>
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="otro">Otro</option>
+          </select>
+    
+          <p>¿Querés recibir novedades?</p>
+          <div class="select-novedades">
+            <label><input type="radio" name="novedades" value="si" required> Sí</label>
+            <label><input type="radio" name="novedades" value="no"> No</label>
           </div>
-        </div>
-      
-        <div class="formulario-contacto">
-          <h3>Por sugerencias o consultas contactanos</h3>
-          <form action="#" method="post">
-            <input type="text" name="nombre" placeholder="Nombre" required>
-            <input type="text" name="apellido" placeholder="Apellido" required>
-            <input type="email" name="email" placeholder="Correo electrónico" required>
-            <input type="tel" name="telefono" placeholder="Teléfono">
-            <input type="text" name="direccion" placeholder="Direccion" required>
-            <textarea name="mensaje" placeholder="Escribí tu mensaje..." rows="5" required></textarea>
+    
+          <div class="botones-form">
             <button type="submit">Enviar</button>
-          </form>
-        </div>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
     </section>
+    
     <footer>
         <div class="footer-container">
           <div class="logo-mg">
