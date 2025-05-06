@@ -188,6 +188,10 @@ header {
 }
 
 .btn-conocer {
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     background-color: var(--ROSA-CLARO);
     color: var(--ROSA);
     height: 50px;
@@ -196,10 +200,6 @@ header {
     border-style: none;
     font-size: 22px;
     font-weight: bold;
-    text-decoration: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
 }
 
 .btn-conocer:hover {
@@ -268,14 +268,14 @@ header {
     margin-bottom: 20px;
 }
 
+a.item {
+    text-decoration: none; 
+}
+
 .footer-item h3 {
     font-size: 28px;
     margin: 0;
     color: var(--ROSA);
-}
-
-a.item {
-    text-decoration: none; 
 }
 
 .item:hover {
@@ -334,6 +334,10 @@ a.item {
 .item6 { grid-area: item6; }
   
 .btn-ver-mas{
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     margin-top: 20px;
     background-color: var(--VERDE-OSCURO);
     color: white;
@@ -344,10 +348,6 @@ a.item {
     font-size: 22px;
     font-weight: bold;
     transition: transform 0.3s ease;
-    text-decoration: none;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
 }
 
 .btn-ver-mas:hover {
